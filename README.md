@@ -3,10 +3,10 @@
 ## A small repo made to store all the content covered in the Software Frameworks course from Griffith University
 
 ### Install Instructions
-Clone the repo to your local machine by running `git clone https://github.com/ptrsym/softFrameworksWS2.git`
+Clone the repo to your local machine by running `git clone https://github.com/ptrsym/Software-Frameworks-UNI.git`
 
 ### Run Instructions
-In your project folder open an integrated terminal and enter `node index.js`
+No projects to run yet.
 
 ### Course Content
 
