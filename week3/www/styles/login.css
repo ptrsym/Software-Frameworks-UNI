@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #121212; /* Dark background color */
+  color: #e0e0e0; /* Light text color */
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #bb86fc; /* Light purple color for links */
+}
+
+input,
+textarea,
+select {
+  background-color: #333; /* Dark background for form elements */
+  color: #e0e0e0; /* Light text color for form elements */
+  border: 1px solid #555; /* Slightly lighter border for form elements */
+  padding: 8px;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #6200ee; /* Primary button color */
+  color: #ffffff; /* White text color */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.login__field {
+  padding: 24px 0;
+  max-width: 192px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login__info {
+  margin: 6px 0;
+  padding: 4px;
+}

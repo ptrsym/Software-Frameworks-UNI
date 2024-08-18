@@ -7,6 +7,17 @@
     <link rel="stylesheet" href="./styles/login.css">
 </head>
 <body>
-    <h1>Hello</h1>
+    <div class="row">
+        <h1>Login</h1>
+        <form action="/login" method="post">
+            <div class="login__field">
+                <label for="username">Username:</label>
+                <input id="username" class="login__info" type="text" name="username">
+                <label for="passwrd">Password:</label>
+                <input id="password" class="login__info" type="password" name="password">
+                <button type="submit">Login</button>
+            </div>
+            </form>
+    </div>
 </body>
 </html>
