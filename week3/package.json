@@ -1,0 +1,22 @@
+{
+  "name": "workshop3",
+  "version": "1.0.0",
+  "description": "week 3 workshop software frameworks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ptrsym/Software-Frameworks-UNI.git"
+  },
+  "author": "peter s",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ptrsym/Software-Frameworks-UNI/issues"
+  },
+  "homepage": "https://github.com/ptrsym/Software-Frameworks-UNI#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
