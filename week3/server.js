@@ -4,8 +4,12 @@ const path = require('path');
 const app = express();
 const http = require('http').Server(app);
 
+//handles url post requests
+app.use(express.urlencoded({ extended: true}));
+
 app.use(express.static(path.join(__dirname, 'www')));
 
+//mount the routes file
 app.use(routes);
 
 let server = http.listen(3000, function () {
