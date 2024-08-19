@@ -3,9 +3,12 @@ const routes = require('./routes');
 const path = require('path');
 const app = express();
 const http = require('http').Server(app);
+const bodyParser = require('body-parser');
 
-//handles url post requests
-app.use(express.urlencoded({ extended: true}));
+// //handles url post requests
+// app.use(express.urlencoded({ extended: true}));
+
+app.use (bodyParser.json());
 
 app.use(express.static(path.join(__dirname, 'www')));
 
